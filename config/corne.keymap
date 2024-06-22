@@ -10,10 +10,10 @@
 #include "zmk-helpers/helper.h"
 
 // Source desired key-position labels
-#include "zmk-helpers/key-labels/42.h"
+#include "zmk-helpers/keypos_def/keypos_42keys.h"
 
 // Source unicode-chars for desired languages
-#include "zmk-helpers/unicode-chars/german.dtsi"
+#include "zmk-helpers/international-chars/german.dtsi"
 
 // replace a/o/u/s with German umlauts when NAV and NUM are held jointly
 ZMK_CONDITIONAL_LAYER(NAV NUM, GER)
