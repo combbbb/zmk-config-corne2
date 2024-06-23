@@ -16,11 +16,6 @@
 // Source unicode-chars for desired languages
 #include "zmk-helpers/unicode-chars/german.dtsi"
 
-// replace a/o/u/s with German umlauts when NAV and NUM are held jointly
-ZMK_CONDITIONAL_LAYER(NAV NUM, GER)
-
-
-
 
 / {
         keymap {
