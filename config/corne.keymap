@@ -32,10 +32,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE  &kp Q     &kp W  &kp E          &kp R             &kp T    &kp DE_Z   &kp U  &kp I          &kp O          &kp P            &kp DE_U_UMLAUT
-&kp TAB     &kp A     &kp S  &kp D          &kp F             &kp G    &kp H      &kp J  &kp K          &kp L          &kp DE_O_UMLAUT  &kp DE_A_UMLAUT
-&kp LSHFT   &kp DE_Y  &kp X  &kp C          &kp V             &kp B    &kp N      &kp M  &kp DE_COMMA   &kp DE_PERIOD  &kp DE_MINUS     &kp RIGHT_CONTROL
-                             &kp BACKSPACE  &kp LEFT_COMMAND  &mo 1    &kp SPACE  &mo 2  &kp RIGHT_ALT
+&kp ESCAPE  &kp DE_P  &kp DE_U  &kp E          &kp DE_COMMA       &kp DE_Q    &kp DE_G   &kp DE_C  &kp DE_L       &kp DE_M  &kp DE_F  &kp DE_U_UMLAUT
+&kp TAB     &kp DE_H  &kp DE_I  &kp DE_E       &kp DE_A           &kp DE_O    &kp DE_D   &kp DE_T  &kp DE_R       &kp DE_N  &kp DE_S  &kp DE_A_UMLAUT
+&kp LSHFT   &kp DE_K  &kp DE_Y  &kp DE_PERIOD  &kp DE_APOSTROPHE  &kp DE_X    &kp DE_J   &kp DE_V  &kp DE_W       &kp DE_B  &kp DE_Z  &kp RIGHT_CONTROL
+                                &kp BACKSPACE  &kp LEFT_COMMAND   &mo 1       &kp SPACE  &mo 2     &kp RIGHT_ALT
             >;
         };
 
