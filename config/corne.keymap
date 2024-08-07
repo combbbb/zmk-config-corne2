@@ -52,10 +52,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE  &kp DE_P  &kp DE_U  &trans         &kp DE_COMMA       &kp DE_Q    &kp DE_G   &kp DE_C  &kp DE_L       &kp DE_M  &kp DE_F  &kp DE_U_UMLAUT
-&kp TAB     &kp DE_H  &kp DE_I  &kp DE_E       &kp DE_A           &kp DE_O    &kp DE_D   &kp DE_T  &kp DE_R       &kp DE_N  &kp DE_S  &kp DE_A_UMLAUT
-&kp LSHFT   &kp DE_K  &kp DE_Y  &kp DE_PERIOD  &kp DE_APOSTROPHE  &kp DE_X    &kp DE_J   &kp DE_V  &kp DE_W       &kp DE_B  &kp DE_Z  &kp RIGHT_CONTROL
-                                &kp BACKSPACE  &kp LEFT_COMMAND   &mo 1       &kp SPACE  &mo 2     &kp RIGHT_ALT
+&kp ESCAPE  &kp DE_P  &kp DE_U  &trans         &kp DE_COMMA       &kp DE_Q    &kp DE_G   &kp DE_C   &kp DE_L  &kp DE_M  &kp DE_F  &kp DE_U_UMLAUT
+&kp TAB     &kp DE_H  &kp DE_I  &kp DE_E       &kp DE_A           &kp DE_O    &kp DE_D   &kp DE_T   &kp DE_R  &kp DE_N  &kp DE_S  &kp DE_A_UMLAUT
+&kp LSHFT   &kp DE_K  &kp DE_Y  &kp DE_PERIOD  &kp DE_APOSTROPHE  &kp DE_X    &kp DE_J   &kp DE_V   &kp DE_W  &kp DE_B  &kp DE_Z  &kp RIGHT_CONTROL
+                                &kp LEFT_ALT   &kp LEFT_COMMAND   &mo 1       &kp SPACE  &kp ENTER  &mo 2
             >;
         };
 
