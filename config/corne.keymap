@@ -62,10 +62,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp DE_EXCLAMATION  &kp DE_DOUBLE_QUOTES  &kp DE_SECTION  &kp DE_DOLLAR  &kp DE_PERCENT  &kp DE_AMPERSAND    &kp DE_SLASH  &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_EQUAL  &kp DE_QUESTION  &kp DE_ACUTE
-&kp LCTRL           &trans                &trans          &trans         &trans          &trans              &kp INSERT    &kp UP_ARROW             &kp PAGE_UP               &kp RBKT      &kp DE_PLUS      &kp DE_HASH
-&kp LSHFT           &trans                &trans          &trans         &trans          &trans              &kp LEFT      &kp DOWN_ARROW           &kp RIGHT_ARROW           &bt BT_SEL 3  &bt BT_SEL 4     &kp ENTER
-                                                          &kp LGUI       &trans          &kp SPACE           &kp RET       &trans                   &kp RALT
+&kp DE_EXCLAMATION  &kp DE_DOUBLE_QUOTES  &kp DE_SECTION  &kp UP_ARROW    &kp DE_PERCENT   &kp DE_AMPERSAND    &kp DE_SLASH  &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_EQUAL  &kp DE_QUESTION  &kp DE_ACUTE
+&kp LCTRL           &kp DE_DOLLAR         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans              &kp INSERT    &kp UP_ARROW             &kp PAGE_UP               &kp RBKT      &kp DE_PLUS      &kp DE_HASH
+&kp LSHFT           &trans                &trans          &trans          &trans           &trans              &kp LEFT      &kp DOWN_ARROW           &kp RIGHT_ARROW           &bt BT_SEL 3  &bt BT_SEL 4     &kp ENTER
+                                                          &kp LGUI        &trans           &kp SPACE           &kp RET       &trans                   &kp RALT
             >;
         };
 
