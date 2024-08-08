@@ -67,10 +67,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB       &kp N1     &kp LG(DE_W)  &kp N3        &kp N4        &kp LG(DE_Z)    &kp BACKSPACE  &kp DE_N7  &kp DE_N8  &kp DE_N9  &kp DE_QUESTION  &kp N9
-&kp LG(DE_A)  &kp DE_N1  &kp DE_N2     &kp NUMBER_3  &kp N4        &kp N5          &kp BACKSPACE  &kp DE_N4  &kp DE_N5  &kp DE_N6  &kp DE_N5        &kp DE_N6
-&kp LSHFT     &trans     &kp LEFT_ALT  &kp LG(DE_C)  &kp LG(DE_V)  &trans          &kp DE_N1      &kp DE_N1  &kp DE_N2  &kp DE_N3  &kp NUMBER_2     &kp DE_N3
-                                       &kp LGUI      &trans        &kp SPACE       &kp RET        &kp DE_N0  &kp DE_N0
+&kp TAB       &kp LG(DE_Q)  &kp LG(DE_W)    &kp UP_ARROW    &kp LG(DE_T)  &kp LG(DE_Z)    &kp BACKSPACE  &kp DE_N7  &kp DE_N8  &kp DE_N9  &kp DE_QUESTION  &kp N9
+&kp LG(DE_A)  &kp LG(DE_A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT     &kp N5          &kp BACKSPACE  &kp DE_N4  &kp DE_N5  &kp DE_N6  &kp DE_N5        &kp DE_N6
+&kp LSHFT     &mo 3         &kp LEFT_ALT    &kp LG(DE_C)    &kp LG(DE_V)  &trans          &kp LG(DE_N)   &kp DE_N1  &kp DE_N2  &kp DE_N3  &kp NUMBER_2     &kp DE_N3
+                                            &kp LGUI        &trans        &kp SPACE       &kp RET        &kp DE_N0  &kp DE_N0
             >;
         };
 
@@ -91,10 +91,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &kp UP_ARROW    &trans           &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans           &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans          &trans          &trans
+&trans  &trans  &kp DE_N7  &kp DE_N8  &kp DE_N9  &trans    &trans          &kp UP_ARROW    &trans           &trans  &trans  &trans
+&trans  &trans  &kp DE_N4  &kp DE_N5  &kp DE_N6  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans
+&trans  &trans  &kp DE_N1  &kp DE_N2  &kp DE_N3  &trans    &trans          &trans          &trans           &trans  &trans  &trans
+                           &trans     &trans     &trans    &trans          &trans          &trans
             >;
         };
 
