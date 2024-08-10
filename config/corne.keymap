@@ -112,10 +112,19 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &kp DE_U_UMLAUT  &trans  &trans           &trans             &trans  &trans  &trans  &trans  &trans         &trans
-&trans  &trans  &trans           &trans  &kp DE_A_UMLAUT  &kp DE_O_UMLAUT    &trans  &trans  &trans  &trans  &kp DE_ESZETT  &trans
-&trans  &trans  &trans           &trans  &trans           &trans             &trans  &trans  &trans  &trans  &trans         &trans
-                                 &trans  &trans           &trans             &trans  &trans  &trans
+&trans          &trans  &kp DE_U_UMLAUT  &trans  &trans           &trans             &trans  &trans  &trans  &trans  &trans         &trans
+&trans          &trans  &trans           &trans  &kp DE_A_UMLAUT  &kp DE_O_UMLAUT    &trans  &trans  &trans  &trans  &kp DE_ESZETT  &trans
+&kp LEFT_SHIFT  &trans  &trans           &trans  &trans           &trans             &trans  &trans  &trans  &trans  &trans         &trans
+                                         &trans  &trans           &trans             &trans  &trans  &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
