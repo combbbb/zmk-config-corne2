@@ -93,8 +93,8 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp DE_SECTION  &kp DE_EXCLAMATION  &kp DE_DOUBLE_QUOTES  &kp UP_ARROW    &kp DE_PERCENT   &kp DE_AMPERSAND    &kp DE_SLASH  &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_EQUAL     &kp DE_QUESTION    &kp DE_ACUTE
-&kp LCTRL       &kp DE_DOLLAR       &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans              &kp INSERT    &kp UP_ARROW             &kp UP_ARROW              &kp RBKT         &kp DE_PLUS        &kp DE_HASH
+&kp DE_SECTION  &kp DE_EXCLAMATION  &kp DE_DOUBLE_QUOTES  &kp UP_ARROW    &kp DE_PERCENT   &kp DE_AMPERSAND    &kp DE_SLASH  &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp UP_ARROW     &kp DE_QUESTION    &kp DE_ACUTE
+&kp LCTRL       &kp DE_DOLLAR       &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans              &kp INSERT    &kp UP_ARROW             &kp LEFT_ARROW            &kp DOWN_ARROW   &kp RIGHT_ARROW    &kp DE_HASH
 &kp LSHFT       &trans              &trans                &trans          &trans           &trans              &kp LEFT      &kp LEFT_ARROW           &kp DOWN_ARROW            &kp RIGHT_ARROW  &kp RG(BACKSPACE)  &kp ENTER
                                                           &kp LGUI        &trans           &kp SPACE           &kp RET       &trans                   &kp RALT
             >;
