@@ -63,10 +63,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE  &kp DE_P  &kp DE_U  &sl 4          &kp DE_COMMA       &kp DE_Q     &kp DE_G   &kp DE_C       &kp DE_L  &kp DE_M  &kp DE_F  &kp RIGHT_CONTROL
-&kp TAB     &kp DE_H  &kp DE_I  &kp DE_E       &kp DE_A           &kp DE_O     &kp DE_D   &kp DE_T       &kp DE_R  &kp DE_N  &kp DE_S  &kp ENTER
-&kp LSHFT   &kp DE_K  &kp DE_Y  &kp DE_PERIOD  &kp DE_APOSTROPHE  &kp DE_X     &kp DE_J   &kp DE_V       &kp DE_W  &kp DE_B  &kp DE_Z  &kp RIGHT_ALT
-                                &mo 1          &kp LEFT_COMMAND   &kp SPACE    &kp SPACE  &kp BACKSPACE  &mo 2
+&kp ESCAPE  &kp DE_P  &kp DE_U  &sl 4          &kp DE_COMMA      &kp DE_Q     &kp DE_G   &kp DE_C       &kp DE_L  &kp DE_M  &kp DE_F  &kp RIGHT_CONTROL
+&kp TAB     &kp DE_H  &kp DE_I  &kp DE_E       &kp DE_A          &kp DE_O     &kp DE_D   &kp DE_T       &kp DE_R  &kp DE_N  &kp DE_S  &kp ENTER
+&kp LSHFT   &kp DE_K  &kp DE_Y  &kp DE_PERIOD  &mo 3             &kp DE_X     &kp DE_J   &kp DE_V       &kp DE_W  &kp DE_B  &kp DE_Z  &kp RIGHT_ALT
+                                &mo 1          &kp LEFT_COMMAND  &kp SPACE    &kp SPACE  &kp BACKSPACE  &mo 2
             >;
         };
 
@@ -80,7 +80,7 @@
             bindings = <
 &kp LG(DE_Q)  &kp DE_EXCLAMATION  &kp LG(DE_W)    &kp LG(DE_R)    &kp LG(DE_T)  &kp LG(DE_Z)    &kp BACKSPACE  &kp DE_N7  &kp DE_N8  &kp DE_N9  &kp DE_QUESTION  &kp C_VOLUME_UP
 &kp LG(DE_A)  &kp LG(DE_A)        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT     &kp N5          &kp BACKSPACE  &kp DE_N4  &kp DE_N5  &kp DE_N6  &kp C_NEXT       &kp C_VOLUME_DOWN
-&kp K_EJECT   &mo 3               &kp LEFT_ALT    &kp LG(DE_C)    &kp LG(DE_V)  &trans          &kp LG(DE_N)   &kp DE_N1  &kp DE_N2  &kp DE_N3  &kp C_PREVIOUS   &kp K_MUTE
+&kp K_EJECT   &mo 3               &kp LEFT_ALT    &kp LG(DE_C)    &kp LG(DE_V)  &kp UP_ARROW    &kp LG(DE_N)   &kp DE_N1  &kp DE_N2  &kp DE_N3  &kp C_PREVIOUS   &kp K_MUTE
                                                   &kp LGUI        &trans        &kp SPACE       &kp RET        &kp DE_N0  &mo 3
             >;
         };
@@ -102,10 +102,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &kp DE_N7  &kp DE_N8  &kp DE_N9  &trans    &trans          &kp UP_ARROW    &trans           &trans  &trans  &trans
-&trans  &trans  &kp DE_N4  &kp DE_N5  &kp DE_N6  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans
-&trans  &trans  &kp DE_N1  &kp DE_N2  &kp DE_N3  &trans    &trans          &trans          &trans           &trans  &trans  &trans
-                           &trans     &trans     &trans    &trans          &trans          &trans
+&trans  &trans  &kp DE_N7  &kp DE_N8  &kp DE_N9  &trans               &trans          &kp UP_ARROW    &trans           &trans  &trans  &trans
+&trans  &trans  &kp DE_N4  &kp DE_N5  &kp DE_N6  &trans               &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans
+&trans  &trans  &kp DE_N1  &kp DE_N2  &kp DE_N3  &trans               &trans          &trans          &trans           &trans  &trans  &trans
+                           &trans     &trans     &kp LG(BACKSPACE)    &trans          &trans          &trans
             >;
         };
 
