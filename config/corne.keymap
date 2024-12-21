@@ -7,6 +7,7 @@
 #include "keys_de.h"
 #include "zmk-helpers/helper.h"
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
@@ -80,7 +81,7 @@
             bindings = <
 &kp LG(DE_Q)  &kp DE_EXCLAMATION  &kp UP_ARROW    &kp LG(DE_R)     &kp LG(DE_T)  &kp LG(DE_Z)    &kp BACKSPACE  &kp DE_N7  &kp DE_N8  &kp DE_N9  &kp DE_QUESTION  &kp C_VOLUME_UP
 &kp LG(DE_A)  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT     &kp N5          &kp BACKSPACE  &kp DE_N4  &kp DE_N5  &kp DE_N6  &kp C_NEXT       &kp C_VOLUME_DOWN
-&kp K_EJECT   &kp DE_LT           &kp LEFT_ALT    &kp LG(DE_C)     &kp LG(DE_V)  &kp UP_ARROW    &kp LG(DE_N)   &kp DE_N1  &kp DE_N2  &kp DE_N3  &kp C_PREVIOUS   &kp DE_PLUS
+&kp K_EJECT   &kp DE_MINUS        &kp DE_PLUS     &kp LG(DE_Z)     &kp LG(DE_V)  &kp UP_ARROW    &kp LG(DE_N)   &kp DE_N1  &kp DE_N2  &kp DE_N3  &kp C_PREVIOUS   &kp DE_PLUS
                                                   &kp LGUI         &trans        &kp SPACE       &kp RET        &kp DE_N0  &mo 3
             >;
         };
@@ -102,10 +103,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &kp DE_N7  &kp DE_N8  &kp DE_N9  &trans               &trans          &kp UP_ARROW    &trans           &trans  &trans  &trans
-&trans  &trans  &kp DE_N4  &kp DE_N5  &kp DE_N6  &trans               &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans
-&trans  &trans  &kp DE_N1  &kp DE_N2  &kp DE_N3  &trans               &trans          &trans          &trans           &trans  &trans  &trans
-                           &trans     &trans     &kp LG(BACKSPACE)    &trans          &trans          &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &trans          &kp UP_ARROW    &trans           &trans  &trans  &trans
+&trans  &trans        &kp DE_N4     &kp DE_N5     &kp DE_N6     &trans               &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans
+&trans  &trans        &kp DE_N1     &kp DE_N2     &kp DE_N3     &trans               &trans          &trans          &trans           &trans  &trans  &trans
+                                    &trans        &trans        &kp LG(BACKSPACE)    &trans          &trans          &trans
             >;
         };
 
