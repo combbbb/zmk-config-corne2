@@ -96,7 +96,7 @@
             bindings = <
 &kp DE_SECTION    &kp DE_EXCLAMATION  &kp DE_DOUBLE_QUOTES  &kp UP_ARROW    &kp DE_PERCENT   &kp DE_AMPERSAND    &kp DE_SLASH  &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp C_VOL_DN    &kp UP_ARROW    &kp C_VOLUME_UP
 &kp LCTRL         &kp DE_DOLLAR       &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans              &kp INSERT    &kp UP_ARROW             &kp LEFT_ARROW            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-&kp DE_LESS_THAN  &trans              &trans                &trans          &trans           &trans              &kp LEFT      &kp LEFT_ARROW           &kp MINUS                 &kp C_STOP      &kp C_PREV      &kp C_NEXT
+&kp DE_LESS_THAN  &trans              &trans                &trans          &trans           &trans              &kp LEFT      &kp LEFT_ARROW           &kp MINUS                 &kp K_STOP      &kp K_PREV      &kp K_NEXT
                                                             &kp LGUI        &trans           &kp SPACE           &kp RET       &trans                   &kp RALT
             >;
         };
