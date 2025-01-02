@@ -64,10 +64,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE        &kp DE_Q  &kp DE_W  &kp DE_E  &kp DE_R          &kp DE_T     &kp DE_Z   &kp DE_U       &kp DE_I      &kp DE_O       &kp DE_P         &kp BACKSPACE
-&kp LEFT_SHIFT    &kp DE_A  &kp DE_S  &kp DE_D  &kp DE_F          &kp DE_G     &kp DE_H   &kp DE_J       &kp DE_K      &kp DE_L       &kp DE_O_UMLAUT  &kp ENTER
-&kp LEFT_CONTROL  &kp DE_Y  &kp DE_X  &kp DE_C  &kp DE_V          &kp DE_B     &kp DE_N   &kp DE_M       &kp DE_COMMA  &kp DE_PERIOD  &kp RIGHT_SHIFT  &kp RIGHT_ALT
-                                      &mo 1     &kp LEFT_COMMAND  &kp SPACE    &kp SPACE  &kp BACKSPACE  &mo 2
+&kp ESCAPE        &kp DE_Q             &kp DE_W               &kp DE_E           &kp DE_R               &kp DE_T     &kp DE_Z   &kp DE_U                &kp DE_I            &kp DE_O                &kp DE_P                     &kp BACKSPACE
+&kp LEFT_SHIFT    &mt LEFT_SHIFT DE_A  &mt LEFT_CONTROL DE_S  &mt LEFT_ALT DE_D  &mt LEFT_COMMAND DE_F  &kp DE_G     &kp DE_H   &mt RIGHT_COMMAND DE_J  &mt DE_K RIGHT_ALT  &mt RIGHT_CONTROL DE_L  &mt RIGHT_SHIFT DE_O_UMLAUT  &kp ENTER
+&kp LEFT_CONTROL  &kp DE_Y             &kp DE_X               &kp DE_C           &kp DE_V               &kp DE_B     &kp DE_N   &kp DE_M                &kp DE_COMMA        &kp DE_PERIOD           &kp RIGHT_SHIFT              &kp RIGHT_ALT
+                                                              &mo 1              &kp LEFT_COMMAND       &kp SPACE    &kp SPACE  &kp BACKSPACE           &mo 2
             >;
         };
 
@@ -94,9 +94,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp DE_SECTION    &kp DE_EXCLAMATION  &kp DE_DOUBLE_QUOTES  &kp UP_ARROW    &kp DE_PERCENT   &kp DE_AMPERSAND    &kp DE_SLASH  &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp C_VOL_DN    &kp UP_ARROW    &kp C_VOLUME_UP
-&kp LCTRL         &kp DE_DOLLAR       &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans              &kp INSERT    &kp UP_ARROW             &kp LEFT_ARROW            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-&kp DE_LESS_THAN  &trans              &trans                &trans          &trans           &trans              &kp LEFT      &kp LEFT_ARROW           &kp DE_MINUS              &kp K_STOP      &kp K_PREV      &kp K_NEXT
+&kp DE_SECTION    &kp DE_EXCLAMATION  &kp DE_DOUBLE_QUOTES  &kp UP_ARROW    &kp DE_PERCENT   &kp DE_AMPERSAND    &kp DE_SLASH  &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp C_VOL_DN      &kp UP_ARROW    &kp C_VOLUME_UP
+&kp LCTRL         &kp DE_DOLLAR       &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans              &kp INSERT    &kp UP_ARROW             &kp LEFT_ARROW            &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp DE_LESS_THAN  &trans              &trans                &trans          &trans           &trans              &kp LEFT      &kp LEFT_ARROW           &kp DE_MINUS              &kp C_PLAY_PAUSE  &kp C_REWIND    &kp C_NEXT
                                                             &kp LGUI        &trans           &kp SPACE           &kp RET       &trans                   &kp RALT
             >;
         };
