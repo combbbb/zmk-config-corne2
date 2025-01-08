@@ -88,10 +88,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE           &urn DE_N1 DE_Q       &urn DE_N2 DE_W         &urn DE_N3 DE_E     &urn DE_N4 DE_R         &urn DE_N5 DE_T    &urn DE_N6 DE_Z  &urn DE_N7 DE_U          &urn DE_N8 DE_I      &urn DE_N9 DE_O          &urn DE_N0 DE_P               &kp BACKSPACE
-&kp TAB              &hml LEFT_SHIFT DE_A  &hml LEFT_CONTROL DE_S  &hml LEFT_ALT DE_D  &hml LEFT_COMMAND DE_F  &kp DE_G           &kp DE_H         &hml RIGHT_COMMAND DE_J  &hml RIGHT_ALT DE_K  &hml RIGHT_CONTROL DE_L  &hml RIGHT_SHIFT DE_O_UMLAUT  &kp ENTER
-&kp DE_GREATER_THAN  &kp DE_Y              &kp DE_X                &kp DE_C            &kp DE_V                &kp DE_B           &kp DE_N         &kp DE_M                 &kp DE_COMMA         &kp DE_PERIOD            &kp DE_MINUS                  &kp RIGHT_ALT
-                                                                   &mo 1               &kp LEFT_COMMAND        &kp SPACE          &kp SPACE        &kp BACKSPACE            &mo 2
+&kp ESCAPE        &urn DE_N1 DE_Q       &urn DE_N2 DE_W         &urn DE_N3 DE_E     &urn DE_N4 DE_R         &urn DE_N5 DE_T    &urn DE_N6 DE_Z  &urn DE_N7 DE_U          &urn DE_N8 DE_I      &urn DE_N9 DE_O          &urn DE_N0 DE_P               &kp BACKSPACE
+&kp TAB           &hml LEFT_SHIFT DE_A  &hml LEFT_CONTROL DE_S  &hml LEFT_ALT DE_D  &hml LEFT_COMMAND DE_F  &kp DE_G           &kp DE_H         &hml RIGHT_COMMAND DE_J  &hml RIGHT_ALT DE_K  &hml RIGHT_CONTROL DE_L  &hml RIGHT_SHIFT DE_O_UMLAUT  &kp ENTER
+&kp GREATER_THAN  &kp DE_Y              &kp DE_X                &kp DE_C            &kp DE_V                &kp DE_B           &kp DE_N         &kp DE_M                 &kp DE_COMMA         &kp DE_PERIOD            &kp DE_MINUS                  &kp RIGHT_ALT
+                                                                &mo 1               &kp LEFT_COMMAND        &kp SPACE          &kp SPACE        &kp BACKSPACE            &mo 2
             >;
         };
 
